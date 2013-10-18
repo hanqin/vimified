@@ -551,7 +551,7 @@ vmap <C-Down> ]egv
 
 " . folding {{{
 
-set foldlevelstart=0
+set foldlevelstart=2
 set foldmethod=syntax
 
 " Space to toggle folds.
