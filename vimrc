@@ -157,7 +157,9 @@ if count(g:vimified_packages, 'coding')
     Bundle 'scrooloose/syntastic'
     let g:syntastic_enable_signs=1
     let g:syntastic_auto_loc_list=1
-    let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['ruby'], 'passive_filetypes': ['html', 'css', 'slim'] }
+    let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['ruby', 'javascript'], 'passive_filetypes': ['html', 'css', 'slim'] }
+    let g:syntastic_javascript_checkers = ['eslint']
+    let g:syntastic_javascript_eslint_exec = 'eslint_d'
 
     " --
 
@@ -393,9 +395,6 @@ set noswapfile
 
 set modelines=0
 set noeol
-if exists('+relativenumber')
-  set relativenumber
-endif
 set numberwidth=3
 set winwidth=83
 set ruler
