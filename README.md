@@ -1,4 +1,4 @@
-vimified
+vimified, all credits goes to the original developer, thanks for the great effort.
 ========
 
 > Frankly, my dear, you're gonna be vimified one day!
@@ -14,14 +14,14 @@ How to install
 
 Copy/Paste this line in your CLI:
 
-    curl -L https://raw.github.com/zaiste/vimified/master/install.sh | sh
+    curl -L https://raw.githubusercontent.com/hanqin/vimified/master/install.sh | sh
 
 ### For those who actually care about what is done
 
 Grab the project:
 
     cd
-    git clone git://github.com/zaiste/vimified.git
+    git clone git://github.com/hanqin/vimified.git
     ln -sfn vimified ~/.vim
     ln -sfn vimified/vimrc ~/.vimrc
     cd vimified
